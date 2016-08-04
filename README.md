@@ -6,20 +6,22 @@ there may arise a need to install and use a version of Python that is newer
 than the existing system version. This tutorial runs through how to do that.
 
 In this folder, you will find the most recent (as of 8/4/2016) Python
-distribution and virtualenv distribution. I encourage you to [check if newer
-versions are available](https://www.python.org/downloads/) and to download their tar/gz files to use instead.
+distribution and virtualenv distribution. I encourage you to check if newer
+versions are available and to download their tar/gz files to use instead.
+
+[Python Downloads](https://www.python.org/downloads/)  
+[virtualenv](https://pypi.python.org/pypi/virtualenv/)
 
 Once installed, we need a place to put the files. Let's call it `src`.
 
 `mkdir ~/src/`  
 `cd src`
 
-
 Put the zipped distributions into this folder.
 
 ### Installing Python
 
-First, unzip the files and move into the new directory created by that process.
+First, unzip the Python file and `cd` into the new directory created by that process.
 
 `tar -zxvf Python-2.7.12.tgz`  
 `cd Python-2.7.12`  
