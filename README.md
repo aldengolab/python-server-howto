@@ -1,4 +1,4 @@
-## Installing Python 2.7.12 on RHEL
+# Installing Python 2.7.12 on RHEL
 
 Because the base Python for a given system is likely to be a dependent for a
 wide variety of tools (e.g. yum in Redhat Enterprise is written in Python),
@@ -9,7 +9,7 @@ In this folder, you will find the most recent (as of 8/4/2016) Python
 distribution and virtualenv distribution. I encourage you to check if newer
 versions are available and to download their tar/gz files to use instead.
 
-Once installed, we need a place to put the files. Let's call it `src\`.
+Once installed, we need a place to put the files. Let's call it `src`.
 
 `mkdir ~/src/`  
 `cd src`
@@ -31,7 +31,7 @@ virtualenv.
 
 We then install the Python distribution into that folder.
 
-``./configure --prefix=$HOME/.localpython`  
+`./configure --prefix=$HOME/.localpython`  
 `make`  
 `make install`
 
