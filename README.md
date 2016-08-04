@@ -1,4 +1,4 @@
-# How to Install a Local Python Version
+# How to Install a Local Python Version on RHEL Servers
 
 Because the base Python for a given system is likely to be a dependent for a
 wide variety of tools (e.g. yum in Redhat Enterprise is written in Python),
