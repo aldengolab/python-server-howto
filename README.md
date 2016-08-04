@@ -6,8 +6,8 @@ there may arise a need to install and use a version of Python that is newer
 than the existing system version. This tutorial runs through how to do that.
 
 In this folder, you will find the most recent (as of 8/4/2016) Python
-distribution and virtualenv distribution. I encourage you to check if newer
-versions are available and to download their tar/gz files to use instead.
+distribution and virtualenv distribution. I encourage you to [check if newer
+versions are available](https://www.python.org/downloads/) and to download their tar/gz files to use instead.
 
 Once installed, we need a place to put the files. Let's call it `src`.
 
