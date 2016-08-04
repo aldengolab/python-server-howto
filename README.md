@@ -1,4 +1,4 @@
-# Installing Python 2.7.12 on RHEL
+# How to Install a Local Python Version
 
 Because the base Python for a given system is likely to be a dependent for a
 wide variety of tools (e.g. yum in Redhat Enterprise is written in Python),
